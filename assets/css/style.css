@@ -3,15 +3,15 @@
 }
 
 :root {
-  --primary: #44e9ff;
-  --secondary: #497980;
-  --tertiary: rgb(192, 246, 253);
+  --primary: #605770;
+  --secondary: #4d4861;
+  --tertiary: #9e7682;
   --grey: #333;
   font-size: 62.5%;
 }
 
 body {
-  background: #ededed;
+  background: #f6e5cb;
   color: var(--grey);
   margin: 0;
   padding: 0;
@@ -22,13 +22,13 @@ body {
 }
 
 header {
-  background: var(--secondary);
+  background:#f7c4a5;
   padding: 30px 25px;
   border-bottom: 5px solid var(--primary);
 }
 
 header p {
-  color: var(--tertiary);
+  color: var(--secondary);
   margin: 5px 0 20px;
   font-size: 2rem;
 }
@@ -52,6 +52,7 @@ form input {
   font-size: 2.2rem;
   border: 2px solid var(--grey);
   border-radius: 12px;
+  background-color: #f6e5cb;
 }
 
 form .form-group {
@@ -69,7 +70,7 @@ footer {
 }
 
 .page-title {
-  color: var(--primary);
+  color: var(--secondary);
   margin-bottom: 5px;
   margin-top: 0;
   font-size: 4.5rem;
@@ -98,7 +99,7 @@ footer {
   list-style: none;
   padding: 15px;
   height: calc(100% - 50px);
-  background: rgb(196, 196, 196);
+  background: #f7c4a5;
   border-radius: 12px;
   border: 2px solid var(--grey);
 }
@@ -139,7 +140,7 @@ footer {
   border: none;
   display: inline-block;
   padding: 10px 15px;
-  background: var(--primary);
+  background: var(--tertiary);
   font-size: 2.2rem;
   border-radius: 12px;
   position: relative;
@@ -162,7 +163,7 @@ footer {
   padding: 5px 7px;
   margin: 3px;
   background: var(--secondary);
-  color: #fff;
+  color: #f6e5cb;
 }
 
 .select-dropdown,
@@ -179,7 +180,7 @@ footer {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  background-color: #fff;
+  background-color: #f6e5cb;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat, repeat;
   background-position: right 0.7em top 50%, 0 0;
